@@ -9,6 +9,7 @@ class Opentaion < Formula
   license "MIT"
 
   depends_on "python@3.12"
+  depends_on "rust" => :build
 
   resource "anyio" do
     url "https://files.pythonhosted.org/packages/96/f0/5eb65b2bb0d09ac6776f2eb54adee6abe8228ea05b20a5ad0e4945de8aac/anyio-4.12.1.tar.gz"
